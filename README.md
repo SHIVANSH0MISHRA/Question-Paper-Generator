@@ -6,6 +6,15 @@ The **Smart Question Paper Generator** is a tool built for Evalvia.AI to help te
 ## Problem
 Teachers often spend hours manually balancing paper constraints (Total Marks, Topic Distributions, Difficulty, Question Types) alongside sourcing adequate questions. Standard LLM prompts fail because language models are notoriously poor at rigid numerical and percentage constraints (e.g. generating exactly 40 marks across 3 different topics with a 30-50-20 difficulty split).
 
+# 📸 Screenshots
+## 🏠 Landing Page<img width="1470" height="956" alt="Screenshot 2026-09-16 at 1 18 09 AM" src="https://github.com/user-attachments/assets/6c8ae1e6-908c-4e48-aa7a-6a120edd2321" />
+## 🏠 Demo Question Paper<img width="1470" height="956" alt="Screenshot 2026-09-16 at 1 17 50 AM" src="https://github.com/user-attachments/assets/3172117c-1aca-45cf-866d-4bf1b0261073" />
+## 🏠 Constraint Adjustment<img width="395" height="753" alt="Screenshot 2026-09-16 at 1 38 15 AM" src="https://github.com/user-attachments/assets/977b69fe-fc24-4556-9a85-8d7930650913" />
+
+
+## 🏠 Question Bank<img width="1470" height="956" alt="Screenshot 2026-09-16 at 1 17 57 AM" src="https://github.com/user-attachments/assets/2bbb17fa-cf7e-48a1-9c36-32cf0abab3f4" />
+
+
 ## Features
 - 📊 **Deterministic Constraint Validation**: Translates desired percentages into integer marks using the largest remainder method.
 - ⚙️ **Allocation Engine**: Groups requirements into specific "slots" before any question text is generated, allowing early conflict detection.
