@@ -67,3 +67,13 @@ If the requested configurations are completely impossible (e.g., requesting 10 m
 ## What I'm Proud Of
 - The **Allocation Engine** successfully bridges the gap between high-level user percentages and concrete, AI-ready generation slots while minimizing rounding errors.
 - The **Single Question Regeneration** feature which isolates the generation to a specific slot ID and re-validates the overall paper instantly, providing massive QoL to teachers.
+
+## Future Improvements
+
+With more time, I would:
+
+- Expand the question bank with a larger curriculum-aligned pool across Maths and Science.
+- Add stronger semantic validation to detect duplicate or overly similar questions.
+- Improve constraint optimization so the system can prioritize and explain trade-offs across multiple conflicting constraints.
+- Add richer question formats such as assertion-reason, case-based, and numerical questions.
+- Add persistent teacher templates for frequently used paper configurations.
